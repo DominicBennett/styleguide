@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Serif+Pro:wght@300&family=Space+Mono&display=swap');
+
+html {
+    width: auto;
+}
+
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+section {
+    border: 2px solid grey;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    font-size: 150%;
+}
+
+li {
+    list-style: none;
+}
+
+#mypalette li {
+    padding: 100px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+
+}
+
+#darkteal {
+    background-color: #0E9498;
+
+}
+
+#lightblue {
+    background-color: #63EEF1;
+
+}
+
+#parchment {
+    background-color: #FBE8C3;
+
+}
+
+#pottery {
+    background-color: #DE5243;
+
+}
+
+#earth {
+    background-color: #632C19;
+    color: #FBE8C3 ;
+
+}
+
+#myfonts li {
+    font-size: 1.5em;
+}
+
+#roboto li {
+    font-family: 'Roboto', sans-serif;
+}
+
+#spacemono li {
+    font-family: 'Space Mono', monospace;
+}
+
+#sourceserifpro li {
+    font-family: 'Source Serif Pro', serif;
+}
+
+.fontname {
+    text-decoration: underline;
+}
