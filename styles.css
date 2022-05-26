@@ -41,7 +41,7 @@ section {
 }
 
 section h2 {
-    font-size: 150%;
+  font-size: 150%;
 }
 
 li {
@@ -84,22 +84,40 @@ li {
 
 }
 
-#myfonts li {
-    font-size: 1.5em;
+.roboto {
+  font-family: 'Roboto';
 }
 
-#roboto li {
-    font-family: 'Roboto', sans-serif;
+.source {
+  font-family: 'Source Serif Pro';
 }
 
-#spacemono li {
-    font-family: 'Space Mono', monospace;
+.space {
+  font-family: 'Space Mono';
 }
 
-#sourceserifpro li {
-    font-family: 'Source Serif Pro', serif;
+.italic {
+  font-style: italic;
 }
 
-.fontname {
-    text-decoration: underline;
+.bold-underline {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.large-font {
+  font-size: large;
+}
+
+#TextStyles li {
+  font-size: 140%;
+  font-family: 'Roboto';
+}
+
+#TextStyles p {
+  font-size: 150%;
 }
